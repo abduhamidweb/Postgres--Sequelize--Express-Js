@@ -1,0 +1,28 @@
+{
+  "name": "test",
+  "version": "1.0.0",
+  "description": "",
+  "type": "module",
+  "main": "server/sever.js",
+  "scripts": {
+    "start": "node server/server.js",
+    "dev": "nodemon server/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/abduhamidweb/Postgres--Sequelize--Express-Js.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/abduhamidweb/Postgres--Sequelize--Express-Js/issues"
+  },
+  "homepage": "https://github.com/abduhamidweb/Postgres--Sequelize--Express-Js#readme",
+  "dependencies": {
+    "express": "^4.18.2",
+    "pg": "^8.10.0",
+    "pg-hstore": "^2.3.4",
+    "sequelize": "^6.31.1"
+  }
+}
