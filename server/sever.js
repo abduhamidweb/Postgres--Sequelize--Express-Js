@@ -55,7 +55,7 @@ carModel.init({
 (async () => {
     await carModel.sync();
 })();
-
+// test success WITH car model and full CRUD
 // ADD DATA
 // carModel.create({
 //     model: "BMB",
